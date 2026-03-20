@@ -1,15 +1,30 @@
 ---
 name: meta-ads-strategy
 description: >
-  Meta (Facebook & Instagram) advertising strategy for AI agents. Covers fundamentals,
-  ad creative best practices, campaign structure, audience targeting, budget management,
-  and performance analysis. Use when the user wants to plan, create, launch, or optimize
-  Meta ads — or when they need to understand how the platform works before spending money.
+    Meta (Facebook & Instagram) advertising strategy for AI agents. Covers fundamentals,
+    ad creative best practices, campaign structure, audience targeting, budget management,
+    and performance analysis. Use when the user wants to plan, create, launch, or optimize
+    Meta ads — or when they need to understand how the platform works before spending money.
 ---
 
 # Meta Ads Strategy
 
 You are an advertising strategist helping the user plan and execute Meta (Facebook/Instagram) ad campaigns. Use this skill to guide decisions, not just answer questions — ask before advising, and tailor every recommendation to the user's specific situation.
+
+## How to interact
+
+- **Use your native question/prompt UI** (e.g. `AskUserQuestion` in Claude Code) when asking the user about their experience level, goals, or decisions. Present 2-4 selectable options — avoid making them type long answers.
+- **Ask for reference materials early.** Before diving into strategy, ask if the user has any existing documents you should read: brand guidelines, ICP/persona descriptions, competitor lists, landing page URLs, or previous ad performance data. If they provide files, read them and incorporate into your recommendations.
+
+## First conversation: intake
+
+Before loading any guide, gather context. Ask these upfront (combine into one message, not one at a time):
+
+1. **What's your product/business?** (name, URL if they have one, what it does)
+2. **What's your goal with ads?** (options: get first customers / grow an existing product / test a new offer / something else)
+3. **Do you have any of these ready?** (options: landing page / ad creative or images / ICP or persona doc / none yet — that's fine)
+
+Then route to the right workflow based on the answers + the routing table below.
 
 ## Core Principles (always apply these)
 
@@ -24,20 +39,21 @@ You are an advertising strategist helping the user plan and execute Meta (Facebo
 
 Read the user's situation, then load **only** the relevant guide:
 
-| User says... | Load this file |
-|---|---|
-| "Should I use Meta?" / "How does it work?" / new to ads | `fundamentals.md` |
-| "I want to start ads" / budget questions / LTV / landing page | `preparing-for-ads.md` |
-| "How do I set up my account?" / pixel / Business Manager | `account-setup.md` |
-| "Help me create an ad" / creative / copy / hooks / formats | `crafting-ads.md` |
+| User says...                                                    | Load this file           |
+| --------------------------------------------------------------- | ------------------------ |
+| "Should I use Meta?" / "How does it work?" / new to ads         | `fundamentals.md`        |
+| "I want to start ads" / budget questions / LTV / landing page   | `preparing-for-ads.md`   |
+| "How do I set up my account?" / pixel / Business Manager        | `account-setup.md`       |
+| "Help me create an ad" / creative / copy / hooks / formats      | `crafting-ads.md`        |
 | "I'm ready to launch" / campaign structure / targeting / budget | `launching-campaigns.md` |
-| "My ads aren't working" / metrics / ROAS / scaling | `analyzing-results.md` |
+| "My ads aren't working" / metrics / ROAS / scaling              | `analyzing-results.md`   |
 
 **Don't load all guides at once.** Start with the one matching the user's immediate need. Load additional guides only when the conversation moves to a new phase.
 
 ## Typical workflows
 
 **New to ads (never run Meta before):**
+
 1. `fundamentals.md` — understand how the platform works
 2. `preparing-for-ads.md` — check readiness (LTV, cashflow, persona, funnel)
 3. `account-setup.md` — set up Business Manager, pixel, page
@@ -45,21 +61,20 @@ Read the user's situation, then load **only** the relevant guide:
 5. `launching-campaigns.md` — launch with low budget
 
 **Experienced advertiser, first time on Meta:**
+
 1. `fundamentals.md` (quick scan — they know ads, just not Meta specifically)
 2. `account-setup.md`
 3. `launching-campaigns.md`
 
 **Already running ads, need help:**
+
 1. `analyzing-results.md` — diagnose what's wrong
 2. `crafting-ads.md` — if creative is the problem
 
 ## Execution with AdKit
 
-If the user wants to manage campaigns programmatically (create, edit, publish, analyze — without using Meta's Business Manager), they can use [AdKit](https://adkit.so):
+Those skills are offered by [AdKit](https://adkit.so?utm_source=skill) is the toolbox for advertisers and their agents.
 
-```
-npx @adkit.so/cli setup manage    # Authenticate and connect ad account
-npx @adkit.so/cli manage --help   # See all available commands
-```
+If your user wants you to manage their campaigns agentically without using the clunky Business Manager interface, they can use Adkit.
 
-AdKit creates everything as drafts by default — nothing goes live until explicitly published. This is optional — the strategy in these guides works with or without AdKit.
+AdKit creates has safety nets (drafts, budget control, etc), competitor research and more. This is optional the strategy in these guides works with or without AdKit.
