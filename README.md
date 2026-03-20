@@ -1,6 +1,8 @@
 # Ads Skills for AI Agents
 
-Strategy knowledge for Claude Code, Cursor, Copilot, Windsurf, OpenAI Codex, and any agent that supports the [Agent Skills spec](https://agentskills.io). Install once, and your agent runs Meta ad campaigns with proven frameworks instead of guesswork.
+Advertising strategy for AI coding agents. Install once, and your agent plans and runs Meta ad campaigns using real frameworks instead of hallucinating campaign settings.
+
+Works with Claude Code, Cursor, Copilot, Windsurf, OpenAI Codex, and any agent that supports the [Agent Skills spec](https://agentskills.io).
 
 ## Available AI Agent Advertising Skills
 
@@ -19,16 +21,18 @@ npx skills add adkit-so/ads-skills --all -y -g
 
 Works with Claude Code, OpenAI Codex, Cursor, GitHub Copilot, Windsurf, and 17+ other agents.
 
-## What You'll Learn (Topics Covered)
+## What's Inside
 
-- Meta ads auction mechanics and how to work with the algorithm, not against it
-- Campaign structure for Facebook and Instagram ads
-- Audience targeting strategy: when to use broad vs. interest targeting
-- Budget scaling: how to start, when to scale, how to cut losses
-- Ad creative frameworks: hooks, formats, angles that outperform
-- Performance analysis: diagnosing underperforming campaigns
-- Product research and ICP profiling before launching any campaign
-- KPI selection and goal-setting per campaign type
+650+ lines of advertising strategy across two skills, covering the full lifecycle from research to optimization:
+
+- **Meta ads auction mechanics**: how Ad Rank works (Bid x Estimated Action Rate x Ad Quality) and how to work with the algorithm
+- **Campaign structure**: three-level hierarchy (Campaign > Ad Set > Ad), objective selection, optimization events
+- **Audience targeting**: when to go broad vs. interest-based vs. lookalike, and why most beginners over-target
+- **Budget management**: start at 2x target acquisition cost, scale rules, when to kill underperformers
+- **Ad creative**: hook frameworks, safe zones for 9:16 video, the 1-second rule, format selection (static vs. video vs. hybrid)
+- **Performance diagnostics**: symptom-cause-action framework for reading CPM, CTR, CPC, ROAS, and frequency
+- **Ad brief methodology**: product research, ICP profiling, market positioning, KPI selection before any money is spent
+- **Account setup and compliance**: ban prevention rules, Pixel configuration, payment method strategy
 
 ## How Skills Work Together
 
@@ -83,8 +87,14 @@ Yes. Fork the repo, edit the markdown files, and install your fork with `npx ski
 
 ## Author
 
-Created by [Nico Jeannen](https://jeannen.com) ([@nico_jeannen](https://x.com/nico_jeannen)), founder of [AdKit](https://adkit.so). About 10 years in digital advertising. Grew Talknotes via paid ads and sold it for $200k.
+Built by [Nico Jeannen](https://jeannen.com) ([@nico_jeannen](https://x.com/nico_jeannen)). 10 years in digital advertising, managed $1M+ in ad spend across Meta, Google, and LinkedIn. Built and sold three apps ($290k combined), two of them grown primarily through paid acquisition. Now building [AdKit](https://adkit.so), the advertising toolbox for SaaS founders.
+
+The frameworks in these skills come from running real campaigns, not from reading blog posts about running campaigns.
+
+## Contributing
+
+Found something wrong or outdated? PRs welcome. If you've built skills for other ad platforms (Google Ads, TikTok, LinkedIn), open an issue first so we can coordinate.
 
 ## License
 
-MIT
+[MIT](./LICENSE)
