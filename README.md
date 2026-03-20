@@ -6,9 +6,9 @@ Works with Claude Code, Cursor, Copilot, Windsurf, OpenAI Codex, and any agent t
 
 ## Available AI Agent Advertising Skills
 
-| Skill | Platform | What it covers |
-| --- | --- | --- |
-| [ad-brief](./skills/ad-brief/) | All platforms | Product research, audience profiling, market analysis, KPIs. Foundation for all campaigns. |
+| Skill                          | Platform                    | What it covers                                                                                               |
+| ------------------------------ | --------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| [ad-brief](./skills/ad-brief/) | All platforms               | Product research, audience profiling, market analysis, KPIs. Foundation for all campaigns.                   |
 | [meta-ads](./skills/meta-ads/) | Meta (Facebook & Instagram) | Auction mechanics, creative strategy, campaign structure, targeting, budget management, performance analysis |
 
 Coming soon: Google Ads, LinkedIn Ads, TikTok Ads.
@@ -53,13 +53,13 @@ Skills are markdown files that give AI agents specialized knowledge and decision
 
 The key distinction: MCP servers give agents **hands** (API access to run ads). Skills give agents **brains** (strategy knowledge to run them well). Use both together.
 
-|  | Without ads skills | With ads skills |
-| --- | --- | --- |
-| Campaign structure | Agent guesses | Agent follows proven frameworks |
-| Targeting | Agent picks random interests | Agent uses broad targeting (lets Meta's ML optimize) |
-| Budget | Agent sets arbitrary amounts | Agent starts at 2x max acquisition cost, scales progressively |
-| Creative | Agent writes generic copy | Agent crafts hooks that compete with entertainment, not other ads |
-| Analysis | Agent reads numbers | Agent diagnoses issues and recommends specific fixes |
+|                    | Without ads skills           | With ads skills                                                   |
+| ------------------ | ---------------------------- | ----------------------------------------------------------------- |
+| Campaign structure | Agent guesses                | Agent follows proven frameworks                                   |
+| Targeting          | Agent picks random interests | Agent uses broad targeting (lets Meta's ML optimize)              |
+| Budget             | Agent sets arbitrary amounts | Agent starts at 2x max acquisition cost, scales progressively     |
+| Creative           | Agent writes generic copy    | Agent crafts hooks that compete with entertainment, not other ads |
+| Analysis           | Agent reads numbers          | Agent diagnoses issues and recommends specific fixes              |
 
 ## How to Run Meta Ads with AI Agents
 
@@ -67,7 +67,7 @@ The key distinction: MCP servers give agents **hands** (API access to run ads). 
 2. Open your agent (Claude Code, Cursor, etc.)
 3. Ask it to run `ad-brief` first: builds your product brief, audience profile, and KPIs
 4. Then run `meta-ads` for campaign planning, creative, and launch
-5. Optionally, connect [AdKit](https://adkit.so) so your agent can execute campaigns directly (no manual Business Manager)
+5. Optionally, connect [AdKit](https://adkit.so) so your agent can launch your campaigns directly (no need to waste hours on the terrible UIs)
 
 ```bash
 # For full execution (planning + publishing):
@@ -82,19 +82,16 @@ Any agent that supports the [Agent Skills spec](https://agentskills.io): Claude 
 **Do I need an AdKit account to use these skills?**
 No. The skills work standalone for strategy and planning. AdKit is only needed if you want your agent to create and publish campaigns without logging into Business Manager.
 
-**Can I add my own skills or modify these?**
-Yes. Fork the repo, edit the markdown files, and install your fork with `npx skills add your-username/your-repo --all -y -g`. PRs with improvements are welcome.
-
 ## Author
 
-Built by [Nico Jeannen](https://jeannen.com) ([@nico_jeannen](https://x.com/nico_jeannen)). 10 years in digital advertising, managed $1M+ in ad spend across Meta, Google, and LinkedIn. Built and sold three apps ($290k combined), two of them grown primarily through paid acquisition. Now building [AdKit](https://adkit.so), the advertising toolbox for SaaS founders.
+Built by [Nico Jeannen](https://jeannen.com) ([@nico_jeannen](https://x.com/nico_jeannen)). I've been in digital advertising for almost 10 years, and managed over \$1M+ in ad spend.
 
-The frameworks in these skills come from running real campaigns, not from reading blog posts about running campaigns.
+I built and sold three apps ($290k combined), two of them grown primarily through paid acquisition. Now building [AdKit](https://adkit.so), the advertising toolbox for SaaS founders and their agents.
 
-## Contributing
+The frameworks in these skills come from running real campaigns, not from AI-generated slop 😃
 
-Found something wrong or outdated? PRs welcome. If you've built skills for other ad platforms (Google Ads, TikTok, LinkedIn), open an issue first so we can coordinate.
+Content comes from my personal experience and [Maker Ads Guide](https://makerads.guide), my guide on how to run ads on Meta.
 
 ## License
 
-[MIT](./LICENSE)
+Free to use. Redistribution require written agreement. Usage by competing products strictly forbidden. See [LICENSE](./LICENSE).
