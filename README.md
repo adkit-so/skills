@@ -1,63 +1,63 @@
-# AdKit Skills
+# Ads Skills for AI Agents
 
-Agent skills for advertising strategy across Meta Ads, Google Ads, LinkedIn Ads, and more.
+Ads strategy skills for Claude Code, OpenAI Codex, Cursor, Copilot, Windsurf, and any agent that supports the [Agent Skills spec](https://agentskills.io).
 
-> The ad strategist's brain, packaged as agent skills.
+Give your AI agent expert-level advertising knowledge. Instead of guessing at campaign structure, targeting, and budgets, your agent follows proven frameworks to plan and launch ads that work.
 
-Works with Claude Code, OpenClaw, Cursor, GitHub Copilot, Windsurf, Codex, and any agent that supports the [Agent Skills](https://agentskills.io) standard.
+## Available Skills
 
-## Skills
-
-| Skill | Platform | What it teaches |
+| Skill | Platform | What it covers |
 |---|---|---|
-| [meta-ads](./meta-ads/) | Meta (Facebook & Instagram) | Auction mechanics, creative strategy, campaign structure, audience targeting, budget allocation, performance analysis |
+| [ad-brief](./skills/ad-brief/) | All platforms | Product research, audience profiling, market analysis, KPIs. Foundation for all campaigns. |
+| [meta-ads](./skills/meta-ads/) | Meta (Facebook & Instagram) | Auction mechanics, creative strategy, campaign structure, targeting, budget management, performance analysis |
 
-More platforms coming (Google Ads, LinkedIn, TikTok).
+Coming soon: Google Ads, LinkedIn Ads, TikTok Ads.
+
+## How Skills Work Together
+
+The `ad-brief` skill is the foundation. Every platform skill reads it first to understand the product, audience, and goals before doing anything.
+
+```
+ad-brief (run first)
+    |
+    v
+meta-ads ── fundamentals, creative, campaigns, analysis
+google-ads   (coming soon)
+linkedin-ads (coming soon)
+```
 
 ## Install
 
-**Universal** (works with 17+ agents):
-```
-npx skills add adkit/adkit-skills
-```
-
-**ClawHub** (OpenClaw):
-```
-clawhub install adkit/adkit-skills
+```bash
+npx skills add adkit-so/ads-skills --all -y -g
 ```
 
-**Manual** — clone this repo and copy the skill folder into your agent's skills directory (e.g., `.claude/skills/`).
+Works with Claude Code, OpenAI Codex, Cursor, GitHub Copilot, Windsurf, and 17+ other agents.
+
+## What Are Skills?
+
+Skills are markdown files that give AI agents specialized knowledge and workflows. When you install these skills, your agent can recognize when you're working on advertising and apply the right strategy and best practices.
+
+| | Without skills | With ads skills |
+|---|---|---|
+| Campaign structure | Agent guesses | Agent follows proven frameworks |
+| Targeting | Agent picks random interests | Agent uses broad targeting (lets Meta's ML optimize) |
+| Budget | Agent sets arbitrary amounts | Agent starts at 2x max acquisition cost, scales 10-20% every 48h |
+| Creative | Agent writes generic copy | Agent crafts hooks that compete with entertainment, not other ads |
+| Analysis | Agent reads numbers | Agent diagnoses issues and recommends specific fixes |
 
 ## Why Skills, Not Tools
 
 MCP servers give agents hands (API access). Skills give agents brains (strategy knowledge).
 
-| | MCP servers | AdKit Skills |
-|---|---|---|
-| Create a campaign | Yes | - |
-| Know *how* to structure a campaign | - | Yes |
-| Read metrics | Yes | - |
-| Know *what* metrics matter and *why* | - | Yes |
-| Set a budget | Yes | - |
-| Know *how much* to budget and *when* to scale | - | Yes |
-
-Use both together for full autonomous ad management.
-
-## How it works
-
-Each skill contains:
-
-- **SKILL.md** — entry point with core principles and a routing table. Your agent reads this first and loads detailed guides on demand.
-- **Strategy guides** — deep dives on specific topics (creative, targeting, budgets, analytics). Only loaded when relevant — zero token cost until needed.
-
-The guides teach advertising strategy — not tool documentation. They cover the "what" and "why" of running ads so your agent can advise, plan, and make informed decisions.
+Use both together: skills for planning, tools for execution.
 
 ## Using with AdKit
 
-These skills work standalone — no subscription required. But if you want to execute campaigns programmatically (create, manage, publish ads without touching Business Manager), install [AdKit](https://adkit.so):
+These skills work standalone. But if you want your agent to execute campaigns (create ads, manage budgets, publish) without touching Business Manager, install the [AdKit CLI](https://adkit.so):
 
-```
-npx @adkit.so/cli setup manage
+```bash
+npx adkit-cli setup manage
 ```
 
 ## Contributing
