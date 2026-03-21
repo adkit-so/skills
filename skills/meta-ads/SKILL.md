@@ -75,6 +75,8 @@ Follow the sequence for the user's situation. Do not skip steps, each file build
 1. `8-results.md`: diagnose what's wrong
 2. `4-copy.md` / `5-creative.md`: if creative is the problem
 
+Important: Load the relevant steps in your Task tool to keep track of everything.
+
 ## Execution: manual vs AdKit
 
 When the user reaches an execution step (creating campaigns, publishing ads, etc), check if AdKit CLI is installed by running `adkit status`.
