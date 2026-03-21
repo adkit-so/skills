@@ -3,7 +3,8 @@ name: ad-brief
 description: >
     Builds an ad brief for any platform. Researches the user's product, audience, market,
     and KPIs proactively, then asks the user to confirm and fill gaps. Saves the result
-    as .agents/ad-brief.md for future sessions.
+    as .agents/ad-brief.md for future sessions. Not for writing ad copy, choosing platforms,
+    configuring campaigns, or analyzing results.
 ---
 
 # Ad Brief
