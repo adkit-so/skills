@@ -6,6 +6,8 @@ Creative strategy, format selection, and production specs for static and video a
 
 The user creates all ad images and videos. Tell them what to make (format, specs, dimensions from the checklist below) and which tool to use (see Tools sections). If they don't have assets yet, walk them through the checklist and recommend a tool to get started. Wait for the finished asset before proceeding.
 
+> Need to be completed before building campaigns.
+
 ## Contents
 
 - [Creative strategy](#creative-strategy)
@@ -92,7 +94,7 @@ Max 30MB. JPG or PNG. Prioritize 4:5 (higher CTR than 1:1).
 
 ### The hybrid trick
 
-Static + animated background = Meta counts as video. Add subtle motion (animated bg, text animation, gentle zoom) for video algorithm boost without full production. 
+Static + animated background = Meta counts as video. Add subtle motion (animated bg, text animation, gentle zoom) for video algorithm boost without full production.
 
 ### AI-generated images
 
