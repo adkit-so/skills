@@ -21,15 +21,15 @@ Ask the user:
 
 Use the answers to route through this guide:
 
-| Situation                            | Recommended path                                                                                                    |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------- |
-| No pixel data, no ad history         | Leads objective, single ad set, low budget ($2-5/day). Jump to **Low budget setup**.                                |
-| Has pixel data, budget under $10/day | Sales objective, single ad set with Flexible Creatives. Optimize for the event with the most data.                  |
-| Has pixel data, budget $25-50+/day   | Sales objective, 2-3 ad sets (interest + broad + lookalike). Full **Default setup**.                                |
+| Situation                            | Recommended path                                                                                                  |
+| ------------------------------------ | ----------------------------------------------------------------------------------------------------------------- |
+| No pixel data, no ad history         | Leads objective, single ad set, low budget ($2-5/day). Jump to **Low budget setup**.                              |
+| Has pixel data, budget under $10/day | Sales objective, single ad set with Flexible Creatives. Optimize for the event with the most data.                |
+| Has pixel data, budget $25-50+/day   | Sales objective, 2-3 ad sets (interest + broad + lookalike). Full **Default setup**.                              |
 | Has pixel data, budget $100+/day     | Consider Advantage+ Shopping in addition to manual campaigns. See **Other Setups** in [7-launch.md](7-launch.md). |
-| New ad account, any budget           | Start at $2-5/day regardless of total budget. See **Account Safety** below.                                         |
+| New ad account, any budget           | Start at $2-5/day regardless of total budget. See **Account Safety** below.                                       |
 
-> **Ask:** "What's your main goal: sales, leads, or awareness?" Use the answer to select the campaign objective below.
+> **Ask:** "What's your main goal: sales or leads?" Use the answer to select the campaign objective below. Never use awareness/traffic/etc unless the user specifically asks for it.
 
 ## Account Safety
 
@@ -59,10 +59,10 @@ Every Meta ad account is organized in three nested levels:
 | ------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------ |
 | **Sales**                 | You sell a product/subscription and want direct conversions. Default for most advertisers.             | You have no pixel events firing yet.                   |
 | **Leads**                 | You collect emails, signups, or contact info. Great for pre-launch, lead-magnets, or high-touch sales. | You can already sell directly from a landing page.     |
+| **App Promotion**         | Same as sales but when advertising a mobile apps. Requires separate tracking setup.                    | You don't have a mobile app.                           |
 | **Engagement/Video View** | When making retargeting audiences + cheap Social Proof.                                                | You care about revenue, not vanity metrics.            |
 | **Traffic**               | Never, garbage traffic.                                                                                | Always skip.                                           |
 | **Awareness**             | Massive brand-building budgets (think Coca-Cola). Don't use                                            | You need measurable ROI. 99% of advertisers skip this. |
-| **App Promotion**         | Mobile app installs. Requires separate tracking setup.                                                 | You don't have a mobile app.                           |
 
 **Most common choice:** Sales. If budget is tight or you lack pixel data, start with Leads.
 

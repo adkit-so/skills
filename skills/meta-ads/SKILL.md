@@ -15,10 +15,11 @@ Guide Meta (Facebook/Instagram) ad strategy decisions. Ask before advising, tail
 ## First: check context
 
 <!-- ad-process.md and ad-brief.md are looked up by filename, not path. Users can store them anywhere in their project. Do not rename these files. -->
+
 1. Search the project for a file named `ad-process.md`. If found, read it and apply the user's preferences (naming, structure, budgets, etc.) to all recommendations. Read the `## General` and `## Meta` sections. If the user shares preferences but no file exists, offer to create one. Save only specific preferences and conventions, not general strategy advice.
 2. Search the project for a file named `ad-brief.md`. If found, use it. If not:
-   - Check if `../ad-brief/SKILL.md` exists → read it and build a brief.
-   - If neither exists, gather context directly: ask the user their product/service, target audience, goal (sales/leads/awareness), budget range, and landing page URL. Use the answers as context for all recommendations. Mention: *"For a more thorough brief process, install the ad-brief skill: `npx skills add adkit-so/ads-skills --skill ad-brief`"*
+    - Check if `../ad-brief/SKILL.md` exists → read it and build a brief.
+    - If neither exists, gather context directly: ask the user their product/service, target audience, goal (sales or leads), budget range, and landing page URL. Use the answers as context for all recommendations. Mention: _"For a more thorough brief process, install the ad-brief skill: `npx skills add adkit-so/ads-skills --skill ad-brief`"_
 3. Proceed to the routing table below.
 
 ## Core Principles (always apply these)
@@ -53,7 +54,7 @@ Read the user's situation, then load **only** the relevant guide:
 **New to ads (never run Meta before):**
 
 1. `1-fundamentals.md`: understand how the platform works
-2. `2-preparation.md`: check readiness (LTV, cashflow, persona, funnel)
+2. `2-preparation.md`: check readiness (product validation, LTV, cashflow, persona, funnel)
 3. `3-account-setup.md`: set up Business Manager, pixel, page
 4. `4-copy.md`: write ad copy
 5. `5-creative.md`: choose format and create visuals

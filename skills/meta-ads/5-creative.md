@@ -2,6 +2,10 @@
 
 Creative strategy, format selection, and production specs for static and video ads.
 
+## Your role
+
+You guide the user through making creative. Unless you have access to a dedicated creative tool, do NOT produce creative yourself. Never screenshot websites or generate images as a shortcut. Instead: help the user pick a format, walk them through the specs, suggest tools (Canva, Figma, Adkit Studio, CapCut etc.), and wait for them to provide the finished asset.
+
 ## Contents
 
 - [Creative strategy](#creative-strategy)

@@ -46,7 +46,7 @@ adkit manage meta campaigns create --name "..." --objective sales --budget-daily
 
 | Flag             | Required | Values                                                          |
 | ---------------- | -------- | --------------------------------------------------------------- |
-| `--objective`    | yes      | `sales`, `leads`, `engagement`, `awareness`, `app_promotion`    |
+| `--objective`    | yes      | `sales`, `leads`, `engagement`, `awareness`, `app_promotion`. Use `sales` or `leads` in 99% of cases. |
 | `--budget-daily` | yes*     | Amount in account currency. *Or `--budget-total` for lifetime   |
 | `--name`         | no       | Defaults to `campaign YYYY-MM-DD`                               |
 | `--bid-strategy` | no       | `lowest_cost` (default), `cost_cap`, `bid_cap`, `min_roas`     |

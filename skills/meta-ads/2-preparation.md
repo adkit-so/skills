@@ -1,7 +1,9 @@
 # Preparing For Ads
 
 ## Contents
+
 - [Readiness Check](#readiness-check)
+- [Product Validation](#product-validation)
 - [Acquisition Cost & Profit](#acquisition-cost--profit)
 - [Cashflow Management](#cashflow-management)
 - [Knowing Your Customer](#knowing-your-customer)
@@ -14,10 +16,30 @@ Before the user spends money on ads, walk them through four pillars: numbers, ca
 
 Before proceeding, ask the user these questions. If any answer is no, address that section first before moving on.
 
+- **Do they have paying customers or proven demand?** If not, walk them through the Product Validation section below.
 - **Can they calculate their LTV?** If not, walk them through the LTV section below.
 - **Do they have a funded payment method?** If not, cover Cashflow Management first.
 - **Do they know their customer?** If they can't describe their ideal customer's problem, goals, and objections: they aren't ready. Walk them through Knowing Your Customer.
 - **Is their landing page ready?** If it's not live, or they haven't optimized copy and conversion path: cover Funnel & Landing Page first.
+
+## Product Validation
+
+Ads amplify what already works. Without proven demand, there's no signal to optimize against and budgets burn fast with no learnings.
+
+**Ads make sense when:**
+
+- People are already buying (even a few customers proves demand)
+- LTV is high enough to support paid acquisition (see Acquisition Cost & Profit below)
+- The funnel converts organic traffic (landing page works, people sign up/buy)
+- Cash reserves can cover the learning period (ads aren't always profitable immediately)
+
+**Warning signs (proceed with caution):**
+
+- No customers yet, product still unvalidated
+- Can't describe the target customer from real experience
+- Landing page has never converted a stranger
+
+If the user has no validation, warn them clearly but don't block them. Recommend they read [When Should a SaaS Run Ads?](https://adkit.so/resources/when-to-run-ads-for-saas) before deciding.
 
 ## Acquisition Cost & Profit
 
@@ -29,11 +51,11 @@ Ask the user: "What's your product's price, and do you have upsells or recurring
 
 LTV = total revenue one customer generates over their entire relationship with you.
 
-| Business Model | LTV Calculation | Example |
-|---|---|---|
-| Subscription | Monthly price x avg months before churn | $10/mo x 12 months = $120 |
-| One-time + upsells | Initial purchase + avg upsell revenue | $50 course + $100 consultation = $150 |
-| Ad-monetized (newsletter, free app) | Revenue per user per period x active duration | $0.10/ad x 12 months = $1.20 |
+| Business Model                      | LTV Calculation                               | Example                               |
+| ----------------------------------- | --------------------------------------------- | ------------------------------------- |
+| Subscription                        | Monthly price x avg months before churn       | $10/mo x 12 months = $120             |
+| One-time + upsells                  | Initial purchase + avg upsell revenue         | $50 course + $100 consultation = $150 |
+| Ad-monetized (newsletter, free app) | Revenue per user per period x active duration | $0.10/ad x 12 months = $1.20          |
 
 ### Key Formulas
 
@@ -75,13 +97,13 @@ Ask the user: "What payment method are you planning to use for ads?"
 
 ### Rules to Follow
 
-| Rule | Why |
-|---|---|
-| Ensure payment method always has sufficient funds | One failed payment can trigger account restrictions or permanent bans |
-| Notify your bank that ad platform charges are legitimate | Banks sometimes flag recurring platform charges as fraud |
-| Start with $2-5/day budgets on new accounts | Large spend on new accounts triggers fraud detection and bans |
-| Set Stripe/payment payouts to daily or weekly | Monthly payouts create dangerous cashflow gaps |
-| Prefer steady low spend over start-stop cycles | The algorithm penalizes pausing and restarting campaigns |
+| Rule                                                     | Why                                                                   |
+| -------------------------------------------------------- | --------------------------------------------------------------------- |
+| Ensure payment method always has sufficient funds        | One failed payment can trigger account restrictions or permanent bans |
+| Notify your bank that ad platform charges are legitimate | Banks sometimes flag recurring platform charges as fraud              |
+| Start with $2-5/day budgets on new accounts              | Large spend on new accounts triggers fraud detection and bans         |
+| Set Stripe/payment payouts to daily or weekly            | Monthly payouts create dangerous cashflow gaps                        |
+| Prefer steady low spend over start-stop cycles           | The algorithm penalizes pausing and restarting campaigns              |
 
 ### Cash Strategies
 
@@ -95,12 +117,12 @@ Walk the user through which of these apply to their business model:
 
 ### What You Must Know
 
-| Dimension | What to Capture | Why It Matters for Ads |
-|---|---|---|
-| Demographics | Age, job title, gender, location | Targeting and creative tone |
-| Goals | What they want to achieve | Ad messaging: speak to the outcome |
-| Before/After | Current pain → life after your product | Ad copy structure (problem → solution) |
-| Objections | Hesitations, deal-breakers, unanswered questions | Handle in ad copy and landing page |
+| Dimension       | What to Capture                                                | Why It Matters for Ads                                                               |
+| --------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| Demographics    | Age, job title, gender, location                               | Targeting and creative tone                                                          |
+| Goals           | What they want to achieve                                      | Ad messaging: speak to the outcome                                                   |
+| Before/After    | Current pain → life after your product                         | Ad copy structure (problem → solution)                                               |
+| Objections      | Hesitations, deal-breakers, unanswered questions               | Handle in ad copy and landing page                                                   |
 | Awareness level | Never heard of solutions like yours vs. comparing alternatives | Unaware audiences need problem-first messaging; aware audiences need differentiation |
 
 ### How to Collect This
@@ -142,10 +164,10 @@ Ad platforms evaluate landing page quality. A poor page lowers the quality score
 
 Ask the user: "What happens after someone clicks your ad and lands on your page?" If they don't have email sequences set up, flag it: they're leaving money on the table.
 
-| Scenario | Required Setup |
-|---|---|
-| Free trial / freemium | Email onboarding sequence nudging toward paid |
-| Direct purchase | Abandoned cart email sequence (drives 15-30% of e-commerce sales) |
+| Scenario              | Required Setup                                                       |
+| --------------------- | -------------------------------------------------------------------- |
+| Free trial / freemium | Email onboarding sequence nudging toward paid                        |
+| Direct purchase       | Abandoned cart email sequence (drives 15-30% of e-commerce sales)    |
 | Newsletter / lead gen | Lead magnet: free PDF, mini-course, template - in exchange for email |
 
 ### Policy Compliance
@@ -169,4 +191,3 @@ Before the user spends a single dollar on ads, walk them through this list and c
 - [ ] Conversion path is 1-2 clicks max
 - [ ] Email sequences are set up for non-converters
 - [ ] Ad platform policies have been read
-

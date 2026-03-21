@@ -13,7 +13,7 @@ This process is the same regardless of ad platform. Run it before any campaign w
 
 ## How to interact
 
-- **Use `AskUserQuestion` / `ask_user_question`** when asking about experience level, goals, or decisions. Present 2-4 selectable options - avoid making them type long answers.
+- **Use `AskUserQuestion` / `ask_user_question`** when asking about experience level, goals, or decisions. Present 2-4 selectable options - avoid making them type long answers. For questions where multiple answers are valid (e.g. target audiences, customer types), allow selecting multiple or typing a custom answer. Never force picking one when the user may have several.
 - **Ask for reference materials early.** Ask if the user has existing documents you should read: brand guidelines, ICP/persona descriptions, competitor lists, landing page URLs, or previous ad performance data. If they provide files, read them and incorporate into your recommendations.
 
 ## Check for existing brief
