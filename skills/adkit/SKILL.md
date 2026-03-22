@@ -94,7 +94,7 @@ adkit manage meta ads create --adset <id> --media ./image.jpg --primary-text "..
 adkit manage meta interests search "digital marketing" "social media"
 ```
 
-Multiple queries in one call. Returns IDs for `--interest` flag on ad set creation.
+Multiple keywords in one call. Returns IDs for `--interest` flag on ad set creation.
 
 Run `adkit <command> --help full` for all flags and JSON-only fields.
 

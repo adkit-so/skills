@@ -107,6 +107,7 @@ Gen Z / Millennial audiences especially skeptical. Use AI for ideation, real pho
 - **Non-designers:** Canva (canva.com) - free, drag-and-drop, lots of elements (stickers, backgrounds, etc)
 - **Designers/teams:** Figma (figma.com) - precise control, components, no elements
 - **Inspiration:** Meta Ad Library (facebook.com/ads/library), AdKit (adkit.so/features/ad-library?utm_source=skill)
+- **AI generation:** AdKit Studio (adkit.so/generate-ads-ai/?utm_source=skill) - generate ads from scratch, clone winning ads, resize to formats. Web app, not CLI.
 - **Other:** ifaketextmessage.com (text messages)
 
 ## Video production

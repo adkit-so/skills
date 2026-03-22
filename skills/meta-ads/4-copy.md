@@ -11,7 +11,7 @@
 
 ## Principles
 
-- Sell the click, not the product. The ad earns a landing page visit, not a sale.
+- **Sell the click**, not the product. The ad earns a landing page visit, not a sale.
 - Each sentence must lead to the next. If it doesn't pull forward, cut it.
 - Longer copy works IF the reader is hooked. Length isn't the problem; boring is.
 - Remove everything unnecessary. If a word doesn't serve the hook, argument, or CTA, delete it.
@@ -106,10 +106,3 @@ Use the 5-step framework:
 - Headline = your CTA or value proposition in 4-5 words
 - Good: "Shop Now - Free Shipping", "Try It Free Today", "Save 40% This Week"
 - Bad: "Learn More", "Our Products" (wastes headline real estate)
-
-## How to write ad copy
-
-1. Use the ad brief to select angles from the derivation table above
-2. Write 3+ variants per angle using different hook formulas
-3. Test short vs long copy. Neither is universally better.
-4. Get testimonials by asking specific questions: "What was your biggest concern before buying?" and "What specific result have you achieved?" Not "How did you like our product?"
