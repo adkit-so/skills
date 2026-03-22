@@ -1,6 +1,7 @@
 # Meta Ads Copywriting
 
 ## Contents
+
 - [Principles](#principles)
 - [Deriving angles from the ad brief](#deriving-angles-from-the-ad-brief)
 - [Checklist](#checklist)
@@ -64,16 +65,18 @@ The more specific to the target audience, the better. "Struggling to get more us
 
 ### Body
 
-**Short copy (1-3 sentences)** - impulse purchases, simple offers, brand awareness:
+**Short copy**: impulse purchases, retargeting, simple offers, etc:
 
 Use PAS (Problem-Agitation-Solution):
+
 - Problem (or symptoms if audience is unaware of the problem)
 - Agitation: consequences, what they're losing
 - Solution: your product as the answer
 
-**Long copy (5-10+ sentences)** - considered purchases, high-ticket, complex products:
+**Long copy**: complex offers, top of funnel, etc:
 
 Use the 5-step framework:
+
 1. Identify the audience: call out who this is for
 2. State the problem: pain they're experiencing right now
 3. Offer the solution: your product as the answer
@@ -89,14 +92,13 @@ Use the 5-step framework:
 
 ### CTAs
 
-| Funnel stage | CTA | When to use |
-|---|---|---|
-| Cold (awareness) | Learn More | Audience doesn't know the product yet. Lower friction, more clicks. |
-| Warm (consideration) | Sign Up / Get Started / Get Free Guide | Audience knows the problem, exploring solutions. |
-| Hot (conversion) | Shop Now / Buy Now / Get Offer | Audience is ready to purchase. High intent required. |
+- CTA should be adapted to the audience's stage of the funnel:
+    - Cold: Doesn't know the brand/product => "Learn more" to lower friction
+    - Warm: Already exploring solutions => "Sign up" / "Apply now" / etc
+    - Hot: Ready to purchase => "Shop now" / "Subscribe" / "Get offer" / etc
 
-- Urgency works: "Today Only", "Limited Offer", "Ends Sunday" - but must be genuine or Meta flags it.
-- Reinforce CTA in primary text AND in visual/video.
+- Urgency works: "Today Only", "Limited Offer", "Ends Sunday", but must be genuine or Meta flags it.
+- Add a CTA in primary text (and at the end of video).
 
 ### Headlines
 
@@ -104,13 +106,6 @@ Use the 5-step framework:
 - Headline = your CTA or value proposition in 4-5 words
 - Good: "Shop Now - Free Shipping", "Try It Free Today", "Save 40% This Week"
 - Bad: "Learn More", "Our Products" (wastes headline real estate)
-
-## Variations
-
-- Write 2-3 copy variants per ad set minimum
-- Change the hook/opening line between variants (highest impact variable)
-- Keep the same offer/CTA across variants to test copy, not offers
-- Use Dynamic Creative to let Meta mix-and-match automatically
 
 ## How to write ad copy
 

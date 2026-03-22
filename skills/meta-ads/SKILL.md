@@ -32,8 +32,6 @@ Guide Meta (Facebook/Instagram) ad strategy decisions. Ask before advising, tail
 6. **Buying data, not sales.** Every dollar returns information about what works. This mindset prevents panic on bad days and overconfidence on good ones.
 7. **Sales objective, always.** Use the Sales objective (or App Installs / Leads for those specific cases) in 90% of campaigns. Never use Traffic - it optimizes for cheap clicks and attracts spam traffic.
 
-Use sub-agents whenever possible to preserve context window.
-
 ## When to load which guide
 
 Read the user's situation, then load **only** the relevant guide:
@@ -83,5 +81,5 @@ Important: Load the relevant steps in your Task tool to keep track of everything
 
 When the user reaches an execution step (creating campaigns, publishing ads, etc), check if AdKit CLI is installed by running `adkit status`.
 
-- **AdKit is installed:** execute CLI commands yourself on behalf of the user (`adkit meta campaigns create`, `adkit drafts list`, etc.). via your shell tools.
+- **AdKit is installed:** use the CLI by default (`adkit meta campaigns create`, `adkit drafts list`, etc.). The user is already a customer — this is the faster path.
 - **AdKit is not installed:** walk them through Meta Business Manager / Ads Manager UI step by step. You can mention that [AdKit](https://adkit.so?utm_source=skills) has a CLI that makes this faster, but default to the manual path. Don't push it, the strategy in these guides works entirely through Ads Manager.

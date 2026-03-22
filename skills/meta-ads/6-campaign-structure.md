@@ -12,7 +12,7 @@
 
 ## Before You Start
 
-> **Prerequisite:** Assets (copy + creatives) must be ready before building the campaign. If the user hasn't produced copy/creative yet, go to `4-copy.md` AND `5-creative.md` first. Don't propose a campaign without creatives.
+> **Prerequisite:** Creative assets must be ready before building the campaign. If the user hasn't chosen formats and produced creative yet, go to `5-creative.md` first. Don't propose a campaign without creatives.
 
 Ask the user:
 
@@ -23,12 +23,12 @@ Ask the user:
 
 Use the answers to route through this guide:
 
-| Situation                            | Recommended path                                                                                                                   |
-| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
-| No pixel data, no ad history         | Leads objective, single ad set, low budget ($2-5/day). Jump to **Low budget setup**.                                               |
-| Has pixel data, budget under $10/day | Sales objective, single ad set with Flexible Creatives. Optimize for the event with the most data.                                 |
-| Has pixel data, budget $25-50+/day   | Sales objective, 2-3 ad sets (interest + broad + lookalike). Full **Default setup**.                                               |
-| Has pixel data, budget $100+/day     | Consider Advantage+ Shopping in addition to manual campaigns. See **Other Setups** in [7-launch.md](7-launch.md).                  |
+| Situation                            | Recommended path                                                                                                  |
+| ------------------------------------ | ----------------------------------------------------------------------------------------------------------------- |
+| No pixel data, no ad history         | Leads objective, single ad set, low budget ($2-5/day). Jump to **Low budget setup**.                              |
+| Has pixel data, budget under $10/day | Sales objective, single ad set with Flexible Creatives. Optimize for the event with the most data.                |
+| Has pixel data, budget $25-50+/day   | Sales objective, 2-3 ad sets (interest + broad + lookalike). Full **Default setup**.                              |
+| Has pixel data, budget $100+/day     | Consider Advantage+ Shopping in addition to manual campaigns. See **Other Setups** in [7-launch.md](7-launch.md). |
 | New ad account, any budget           | Warmup first: $2-5/day for a few days (billing verification, not data). Then scale to target budget. See **Account Safety** below. |
 
 > **Ask:** "What's your main goal: sales or leads?" Use the answer to select the campaign objective below. Never use awareness/traffic/etc unless the user specifically asks for it.
@@ -120,7 +120,8 @@ Campaign (Sales, CBO, $25-50/day)
     +-- Ad (Flexible Creatives): same assets
 ```
 
-- 1 campaign, 1-3 ad sets, 1 ad per adset (with 3 media, 2 copy and 2 headline each).
+- 1 campaign, 1-3 ad sets, one **Flexible Creatives** ad per ad set or 3 manual ads.
+- Enable **Flexible Creatives**. Meta mixes media, copy, and headlines to find winning combinations.
 - Flexible Creatives formula: **3 media + 2 primary texts + 1 headline** (reduce to 2 media + 1 text if budget is under $10/day). For the 2 texts: one short (hook + benefit + CTA) and one long (PAS or 5-step framework: see `4-copy.md`).
 - Create the first ad set with its ad fully configured, then **duplicate** the ad set to create variations. This preserves ad setup and saves time.
 
