@@ -68,6 +68,7 @@ Agent interface for managing ads via the terminal. Draft-first — nothing publi
 | Create a responsive search ad      | `adkit manage google ads create`                     |
 | Add / update / remove a keyword    | `adkit manage google keywords add/update/remove`     |
 | Add / remove a negative keyword    | `adkit manage google keywords negatives add/remove`  |
+| Shared negative keyword list       | `adkit manage google keywords negative-lists create/list/attach` |
 | Performance results                | `adkit manage google results`                        |
 | Search terms report                | `adkit manage google results search-terms`           |
 | Keyword research (Keyword Planner) | `adkit manage google research keywords <query>`      |
